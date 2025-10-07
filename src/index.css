@@ -381,7 +381,7 @@ body{
 
 .can{
   --offset: calc(var(--can-width) * -3);
-  --spin: calc(var(--can-width) * -3.089);
+  --spin: calc(var(--can-width) * -3.0913);
   --can-width: calc(var(--dynamic-width) * 0.56);
   --can-height: calc(var(--can-width) * 2.03);
   --can-pattern-offset: 0.0248;
@@ -455,7 +455,7 @@ body{
 background-position: calc(0 * var(--spin) + var(--offset)) calc(var(--can-height) * var(--can-pattern-offset)), 0 0;
   z-index: 7;
   --spin-time: 2.5s;
-  animation: spin-in var(--spin-time) ease-out;
+  animation: spin-in var(--spin-time) ease-out forwards;
 }
 
 @keyframes spin-in{
