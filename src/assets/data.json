@@ -1,0 +1,61 @@
+{
+    "drink-info":
+        [
+            {
+                "id": "1",
+                "drink-id": "1",
+
+                "header" : {
+                    "drink-name": "Pineapple Crush",
+                    "description": "Enjoy a taste of sunshine with our tropical Pineapple Crush - Our delicious blend of Pineapple and Coconut create a smooth drink with a tangy aftertaste.",
+                    "added": "Contains Vitamin B12 for improved brain health!"
+                },
+                
+                "body" : {
+                    "Calories": "16 kcal",
+                    "Sugars": "3.9g",
+                    "Sodium": "92.6mg",
+                    "Potassium": "76.4mg",
+                    "Magnesium": "12.8mg",
+                    "special": ["Vitamin B12","5µg"]
+                }
+            },
+            {
+                "id": "2",
+                "drink-id": "2",
+                "header" : {
+                    "drink-name": "Cool Lemon",
+                    "description": "Beatifully balanced, enjoy Cool Lemon's crisp, citrusy taste with a refreshing aftertaste of fresh mint",
+                    "added": "With added Vitamin B6 to give your immune system that needed boost!"
+                },
+                
+                "body" : {
+                    "Calories": "14 kcal",
+                    "Sugars": "3.4g",
+                    "Sodium": "91.3mg",
+                    "Potassium": "57.7mg",
+                    "Magnesium": "9.8mg",
+                    "special": ["Vitamin B6","1.8mg"]
+                }  
+            },
+               {
+                "id": "3",
+                "drink-id": "3",
+
+                "header" : {
+                    "drink-name": "Orange Rush",
+                    "description": "Bright, bubbly and bursting with zesty citrus flavour - Orange Rush will satisfy your sweet tooth with it's vibrant orangey flavour.",
+                    "added": "With added Vitamin B6 to give your immune system that needed boost!"
+                },
+
+                "body" : {
+                    "Calories": "15 kcal",
+                    "Sugars": "3.7g",
+                    "Sodium": "86.8mg",
+                    "Potassium": "63.1mg",
+                    "Magnesium": "11.3mg",
+                    "special": ["Vitamin B6","1.8mg"]
+                }
+            }
+        ]
+}
